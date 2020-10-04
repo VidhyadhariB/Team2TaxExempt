@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="923870" started-at="2020-10-03T22:59:05 EDT" finished-at="2020-10-03T23:14:28 EDT">
+    <groups>
+    </groups>
+    <test name="Dollar Days Test" duration-ms="923870" started-at="2020-10-03T22:59:05 EDT" finished-at="2020-10-03T23:14:28 EDT">
+      <class name="com.dollardays.testcases.Team2TaxExemptTestCase">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="17170" started-at="2020-10-03T22:59:07 EDT" finished-at="2020-10-03T22:59:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="31124" started-at="2020-10-03T22:59:24 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T22:59:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=Tax Exempt all required  fields empty , ExpiryDate=, filePath=, TCID=TC1, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="7079" started-at="2020-10-03T22:59:55 EDT" finished-at="2020-10-03T23:00:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="14027" started-at="2020-10-03T23:00:02 EDT" finished-at="2020-10-03T23:00:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="23765" started-at="2020-10-03T23:00:16 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:00:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=0.0, TestCase=Except TaxID all required fields empty, ExpiryDate=, filePath=, TCID=TC2, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="2420" started-at="2020-10-03T23:00:40 EDT" finished-at="2020-10-03T23:00:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12343" started-at="2020-10-03T23:00:43 EDT" finished-at="2020-10-03T23:00:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="25579" started-at="2020-10-03T23:00:55 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:01:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=Except State all required fields empty, ExpiryDate=, filePath=, TCID=TC3, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="1826" started-at="2020-10-03T23:01:21 EDT" finished-at="2020-10-03T23:01:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="11960" started-at="2020-10-03T23:01:22 EDT" finished-at="2020-10-03T23:01:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="23938" started-at="2020-10-03T23:01:34 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:01:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=1.0, TestCase=Except TaxID and State all required fields empty , ExpiryDate=, filePath=, TCID=TC4, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5958" started-at="2020-10-03T23:01:58 EDT" finished-at="2020-10-03T23:02:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12556" started-at="2020-10-03T23:02:04 EDT" finished-at="2020-10-03T23:02:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="24273" started-at="2020-10-03T23:02:17 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:02:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=Except expiry date all required fields empty, ExpiryDate=08/19/2022, filePath=, TCID=TC5, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="6127" started-at="2020-10-03T23:02:41 EDT" finished-at="2020-10-03T23:02:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12341" started-at="2020-10-03T23:02:47 EDT" finished-at="2020-10-03T23:03:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="24480" started-at="2020-10-03T23:03:00 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:03:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=State and TaxId empty, ExpiryDate=09/19/2022, filePath=SampleJpg.jpg, TCID=TC6, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5817" started-at="2020-10-03T23:03:24 EDT" finished-at="2020-10-03T23:03:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12809" started-at="2020-10-03T23:03:30 EDT" finished-at="2020-10-03T23:03:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="24146" started-at="2020-10-03T23:03:43 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:04:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=2.0, TestCase=Expiry date and State are empty, ExpiryDate=, filePath=SampleJpg.jpg, TCID=TC7, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5484" started-at="2020-10-03T23:04:07 EDT" finished-at="2020-10-03T23:04:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12374" started-at="2020-10-03T23:04:12 EDT" finished-at="2020-10-03T23:04:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="29973" started-at="2020-10-03T23:04:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:04:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=3.0, TestCase=Tax exempt form all required fields are filled, ExpiryDate=08/19/2022, filePath=SampleJpg.jpg, TCID=TC8, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Positive, State=Iowa, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5278" started-at="2020-10-03T23:04:55 EDT" finished-at="2020-10-03T23:05:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="13019" started-at="2020-10-03T23:05:00 EDT" finished-at="2020-10-03T23:05:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="25271" started-at="2020-10-03T23:05:13 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:05:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=validate wrong file type, ExpiryDate=, filePath=TaxCertificate for DollarDays.txt, TCID=TC9, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=wrong, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="6518" started-at="2020-10-03T23:05:38 EDT" finished-at="2020-10-03T23:05:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.Team2TaxExemptTestCase -->
+      <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="12792" started-at="2020-10-03T23:10:13 EDT" finished-at="2020-10-03T23:10:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyDCEditClick(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyDCEditClick" duration-ms="23529" started-at="2020-10-03T23:10:26 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:10:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyDCEditClick, Zip=98002, CCExpirymonth=05-May, TCID=TC1, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDCEditClick -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5769" started-at="2020-10-03T23:10:49 EDT" finished-at="2020-10-03T23:10:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="12371" started-at="2020-10-03T23:10:55 EDT" finished-at="2020-10-03T23:11:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyCardVisible(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyCardVisible" duration-ms="23770" started-at="2020-10-03T23:11:08 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:11:31 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyCardVisible, Zip=98002, CCExpirymonth=05-May, TCID=TC2, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCardVisible -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5778" started-at="2020-10-03T23:11:31 EDT" finished-at="2020-10-03T23:11:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="13036" started-at="2020-10-03T23:11:37 EDT" finished-at="2020-10-03T23:11:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyClickAddNewCard(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyClickAddNewCard" duration-ms="25545" started-at="2020-10-03T23:11:50 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:12:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyClickAddNewCard, Zip=98002, CCExpirymonth=05-May, TCID=TC3, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=false, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickAddNewCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="3359" started-at="2020-10-03T23:12:16 EDT" finished-at="2020-10-03T23:12:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="12251" started-at="2020-10-03T23:12:20 EDT" finished-at="2020-10-03T23:12:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifySetDefaultCard(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifySetDefaultCard" duration-ms="23229" started-at="2020-10-03T23:12:32 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:12:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifySetDefaultCard, Zip=98002, CCExpirymonth=05-May, TCID=TC4, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySetDefaultCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="2557" started-at="2020-10-03T23:12:55 EDT" finished-at="2020-10-03T23:12:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="11906" started-at="2020-10-03T23:12:58 EDT" finished-at="2020-10-03T23:13:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyEditOnCard(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyEditOnCard" duration-ms="25296" started-at="2020-10-03T23:13:10 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:13:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditOnCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5756" started-at="2020-10-03T23:13:35 EDT" finished-at="2020-10-03T23:13:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="13104" started-at="2020-10-03T23:13:42 EDT" finished-at="2020-10-03T23:13:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyDeleteCard(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyDeleteCard" duration-ms="27518" started-at="2020-10-03T23:13:55 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:14:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5999" started-at="2020-10-03T23:14:22 EDT" finished-at="2020-10-03T23:14:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
+      <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="12566" started-at="2020-10-03T23:05:45 EDT" finished-at="2020-10-03T23:05:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_UserEmailAddressValidation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="emailPreferences_UserEmailAddressValidation" duration-ms="22984" started-at="2020-10-03T23:05:58 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:06:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=emailPreferences_UserEmailAddressValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=srikanthtesting100@gmail.com, UserName=srikanthtesting100@gmail.com, TCID=TC1, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPreferences_UserEmailAddressValidation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="5828" started-at="2020-10-03T23:06:21 EDT" finished-at="2020-10-03T23:06:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="12771" started-at="2020-10-03T23:06:27 EDT" finished-at="2020-10-03T23:06:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_Checkbox_Validation_AtPageLaunch(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="emailPreferences_Checkbox_Validation_AtPageLaunch" duration-ms="25496" started-at="2020-10-03T23:06:40 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:07:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=emailPreferences_Checkbox_Validation_AtPageLaunch, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=true, UserName=srikanthtesting100@gmail.com, TCID=TC2, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPreferences_Checkbox_Validation_AtPageLaunch -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="5811" started-at="2020-10-03T23:07:05 EDT" finished-at="2020-10-03T23:07:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="14386" started-at="2020-10-03T23:07:11 EDT" finished-at="2020-10-03T23:07:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_checkbox_validation_AtClick(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="emailPreferences_checkbox_validation_AtClick" duration-ms="59474" started-at="2020-10-03T23:07:26 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:08:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=emailPreferences_checkbox_validation_AtClick, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=false, UserName=srikanthtesting100@gmail.com, TCID=TC3, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPreferences_checkbox_validation_AtClick -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="3199" started-at="2020-10-03T23:08:25 EDT" finished-at="2020-10-03T23:08:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="13962" started-at="2020-10-03T23:08:29 EDT" finished-at="2020-10-03T23:08:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="EmailPreferences_LinksValidation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="EmailPreferences_LinksValidation" duration-ms="30508" started-at="2020-10-03T23:08:43 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:09:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=EmailPreferences_LinksValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=Policies - DollarDays, UserName=srikanthtesting100@gmail.com, TCID=TC4, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailPreferences_LinksValidation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="6328" started-at="2020-10-03T23:09:13 EDT" finished-at="2020-10-03T23:09:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="11948" started-at="2020-10-03T23:09:20 EDT" finished-at="2020-10-03T23:09:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="termAndConditionsPage_LinksValidation(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="termAndConditionsPage_LinksValidation" duration-ms="34556" started-at="2020-10-03T23:09:32 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:10:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=termAndConditionsPage_LinksValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=, UserName=srikanthtesting100@gmail.com, TCID=TC5, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termAndConditionsPage_LinksValidation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="6148" started-at="2020-10-03T23:10:06 EDT" finished-at="2020-10-03T23:10:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.EmailPreferencesValidationsTestCase -->
+    </test> <!-- Dollar Days Test -->
+  </suite> <!-- Suite -->
+</testng-results>
