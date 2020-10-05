@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+<testng-results skipped="20" failed="0" ignored="0" total="20" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="923870" started-at="2020-10-03T22:59:05 EDT" finished-at="2020-10-03T23:14:28 EDT">
+  <suite name="Parallel Class Runs" duration-ms="6043" started-at="2020-10-05T17:08:24 EDT" finished-at="2020-10-05T17:08:30 EDT">
     <groups>
     </groups>
-    <test name="Dollar Days Test" duration-ms="923870" started-at="2020-10-03T22:59:05 EDT" finished-at="2020-10-03T23:14:28 EDT">
+    <test name="Dollar Days Test" duration-ms="6043" started-at="2020-10-05T17:08:24 EDT" finished-at="2020-10-05T17:08:30 EDT">
       <class name="com.dollardays.testcases.Team2TaxExemptTestCase">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="17170" started-at="2020-10-03T22:59:07 EDT" finished-at="2020-10-03T22:59:24 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="beforeClass" is-config="true" duration-ms="14" started-at="2020-10-05T17:08:24 EDT" finished-at="2020-10-05T17:08:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="2523" started-at="2020-10-05T17:08:25 EDT" finished-at="2020-10-05T17:08:28 EDT">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="31124" started-at="2020-10-03T22:59:24 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T22:59:55 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -19,18 +53,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="7079" started-at="2020-10-03T22:59:55 EDT" finished-at="2020-10-03T23:00:02 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108710" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="14027" started-at="2020-10-03T23:00:02 EDT" finished-at="2020-10-03T23:00:16 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108713" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="23765" started-at="2020-10-03T23:00:16 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:00:40 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -38,18 +102,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="2420" started-at="2020-10-03T23:00:40 EDT" finished-at="2020-10-03T23:00:43 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108718" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12343" started-at="2020-10-03T23:00:43 EDT" finished-at="2020-10-03T23:00:55 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108719" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="25579" started-at="2020-10-03T23:00:55 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:01:21 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -57,18 +151,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="1826" started-at="2020-10-03T23:01:21 EDT" finished-at="2020-10-03T23:01:22 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108724" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="11960" started-at="2020-10-03T23:01:22 EDT" finished-at="2020-10-03T23:01:34 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108725" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="23938" started-at="2020-10-03T23:01:34 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:01:58 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -76,18 +200,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5958" started-at="2020-10-03T23:01:58 EDT" finished-at="2020-10-03T23:02:04 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108730" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12556" started-at="2020-10-03T23:02:04 EDT" finished-at="2020-10-03T23:02:17 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108741" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="24273" started-at="2020-10-03T23:02:17 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:02:41 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -95,18 +249,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="6127" started-at="2020-10-03T23:02:41 EDT" finished-at="2020-10-03T23:02:47 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108755" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12341" started-at="2020-10-03T23:02:47 EDT" finished-at="2020-10-03T23:03:00 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108881" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="24480" started-at="2020-10-03T23:03:00 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:03:24 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -114,18 +298,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5817" started-at="2020-10-03T23:03:24 EDT" finished-at="2020-10-03T23:03:30 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108900" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12809" started-at="2020-10-03T23:03:30 EDT" finished-at="2020-10-03T23:03:43 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108906" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="24146" started-at="2020-10-03T23:03:43 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:04:07 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -133,18 +347,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5484" started-at="2020-10-03T23:04:07 EDT" finished-at="2020-10-03T23:04:12 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932108939" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="12374" started-at="2020-10-03T23:04:12 EDT" finished-at="2020-10-03T23:04:25 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932108946" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="29973" started-at="2020-10-03T23:04:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:04:55 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -152,18 +396,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="5278" started-at="2020-10-03T23:04:55 EDT" finished-at="2020-10-03T23:05:00 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932109001" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="setUpBrowser" is-config="true" duration-ms="13019" started-at="2020-10-03T23:05:00 EDT" finished-at="2020-10-03T23:05:13 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1601932109002" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="ValidateTaxExemptRequiredFields" duration-ms="25271" started-at="2020-10-03T23:05:13 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:05:38 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -171,20 +445,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@7fad8c79]" name="quit" is-config="true" duration-ms="6518" started-at="2020-10-03T23:05:38 EDT" finished-at="2020-10-03T23:05:45 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1601932109007" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="afterClass" is-config="true" duration-ms="-1601932109010" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.dollardays.testcases.Team2TaxExemptTestCase -->
       <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="12792" started-at="2020-10-03T23:10:13 EDT" finished-at="2020-10-03T23:10:26 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-10-05T17:08:24 EDT" finished-at="2020-10-05T17:08:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="2730" started-at="2020-10-05T17:08:25 EDT" finished-at="2020-10-05T17:08:28 EDT">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyDCEditClick(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyDCEditClick" duration-ms="23529" started-at="2020-10-03T23:10:26 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:10:49 EDT">
+        <test-method status="SKIP" signature="VerifyDCEditClick(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDCEditClick" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -192,18 +534,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyDCEditClick -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5769" started-at="2020-10-03T23:10:49 EDT" finished-at="2020-10-03T23:10:55 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="-1601932108711" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="12371" started-at="2020-10-03T23:10:55 EDT" finished-at="2020-10-03T23:11:08 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="-1601932109346" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyCardVisible(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyCardVisible" duration-ms="23770" started-at="2020-10-03T23:11:08 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:11:31 EDT">
+        <test-method status="SKIP" signature="VerifyCardVisible(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyCardVisible" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -211,18 +583,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCardVisible -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5778" started-at="2020-10-03T23:11:31 EDT" finished-at="2020-10-03T23:11:37 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="-1601932109355" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="13036" started-at="2020-10-03T23:11:37 EDT" finished-at="2020-10-03T23:11:50 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="-1601932109532" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyClickAddNewCard(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyClickAddNewCard" duration-ms="25545" started-at="2020-10-03T23:11:50 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:12:16 EDT">
+        <test-method status="SKIP" signature="VerifyClickAddNewCard(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyClickAddNewCard" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -230,18 +632,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClickAddNewCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="3359" started-at="2020-10-03T23:12:16 EDT" finished-at="2020-10-03T23:12:19 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="-1601932109536" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="12251" started-at="2020-10-03T23:12:20 EDT" finished-at="2020-10-03T23:12:32 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="-1601932109778" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifySetDefaultCard(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifySetDefaultCard" duration-ms="23229" started-at="2020-10-03T23:12:32 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:12:55 EDT">
+        <test-method status="SKIP" signature="VerifySetDefaultCard(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifySetDefaultCard" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -249,18 +681,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySetDefaultCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="2557" started-at="2020-10-03T23:12:55 EDT" finished-at="2020-10-03T23:12:58 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="-1601932109782" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="11906" started-at="2020-10-03T23:12:58 EDT" finished-at="2020-10-03T23:13:10 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="-1601932110021" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyEditOnCard(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyEditOnCard" duration-ms="25296" started-at="2020-10-03T23:13:10 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:13:35 EDT">
+        <test-method status="SKIP" signature="VerifyEditOnCard(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyEditOnCard" duration-ms="0" started-at="2020-10-05T17:08:30 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:30 EDT">
           <params>
             <param index="0">
               <value>
@@ -268,18 +730,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEditOnCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5756" started-at="2020-10-03T23:13:35 EDT" finished-at="2020-10-03T23:13:41 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="-1601932110026" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="setUpBrowser" is-config="true" duration-ms="13104" started-at="2020-10-03T23:13:42 EDT" finished-at="2020-10-03T23:13:55 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="-1601932110140" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyDeleteCard(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="VerifyDeleteCard" duration-ms="27518" started-at="2020-10-03T23:13:55 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:14:22 EDT">
+        <test-method status="SKIP" signature="VerifyDeleteCard(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDeleteCard" duration-ms="0" started-at="2020-10-05T17:08:30 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:30 EDT">
           <params>
             <param index="0">
               <value>
@@ -287,20 +779,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyDeleteCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@76329302]" name="quit" is-config="true" duration-ms="5999" started-at="2020-10-03T23:14:22 EDT" finished-at="2020-10-03T23:14:28 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="-1601932110144" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="afterClass" is-config="true" duration-ms="-1601932110145" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
       <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="12566" started-at="2020-10-03T23:05:45 EDT" finished-at="2020-10-03T23:05:58 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-10-05T17:08:24 EDT" finished-at="2020-10-05T17:08:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="2688" started-at="2020-10-05T17:08:25 EDT" finished-at="2020-10-05T17:08:28 EDT">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="emailPreferences_UserEmailAddressValidation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="emailPreferences_UserEmailAddressValidation" duration-ms="22984" started-at="2020-10-03T23:05:58 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:06:21 EDT">
+        <test-method status="SKIP" signature="emailPreferences_UserEmailAddressValidation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_UserEmailAddressValidation" duration-ms="0" started-at="2020-10-05T17:08:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -308,18 +868,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailPreferences_UserEmailAddressValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="5828" started-at="2020-10-03T23:06:21 EDT" finished-at="2020-10-03T23:06:27 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="-1601932108710" started-at="2020-10-05T17:08:28 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="12771" started-at="2020-10-03T23:06:27 EDT" finished-at="2020-10-03T23:06:40 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="-1601932109256" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="emailPreferences_Checkbox_Validation_AtPageLaunch(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="emailPreferences_Checkbox_Validation_AtPageLaunch" duration-ms="25496" started-at="2020-10-03T23:06:40 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:07:05 EDT">
+        <test-method status="SKIP" signature="emailPreferences_Checkbox_Validation_AtPageLaunch(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_Checkbox_Validation_AtPageLaunch" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -327,18 +917,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailPreferences_Checkbox_Validation_AtPageLaunch -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="5811" started-at="2020-10-03T23:07:05 EDT" finished-at="2020-10-03T23:07:11 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="-1601932109263" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="14386" started-at="2020-10-03T23:07:11 EDT" finished-at="2020-10-03T23:07:26 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="-1601932109487" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="emailPreferences_checkbox_validation_AtClick(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="emailPreferences_checkbox_validation_AtClick" duration-ms="59474" started-at="2020-10-03T23:07:26 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:08:25 EDT">
+        <test-method status="SKIP" signature="emailPreferences_checkbox_validation_AtClick(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_checkbox_validation_AtClick" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -346,18 +966,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailPreferences_checkbox_validation_AtClick -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="3199" started-at="2020-10-03T23:08:25 EDT" finished-at="2020-10-03T23:08:29 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="-1601932109490" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="13962" started-at="2020-10-03T23:08:29 EDT" finished-at="2020-10-03T23:08:43 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="-1601932109753" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="EmailPreferences_LinksValidation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="EmailPreferences_LinksValidation" duration-ms="30508" started-at="2020-10-03T23:08:43 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:09:13 EDT">
+        <test-method status="SKIP" signature="EmailPreferences_LinksValidation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="EmailPreferences_LinksValidation" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -365,18 +1015,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailPreferences_LinksValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="6328" started-at="2020-10-03T23:09:13 EDT" finished-at="2020-10-03T23:09:20 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="-1601932109761" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="setUpBrowser" is-config="true" duration-ms="11948" started-at="2020-10-03T23:09:20 EDT" finished-at="2020-10-03T23:09:32 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="-1601932109993" started-at="2020-10-05T17:08:29 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="termAndConditionsPage_LinksValidation(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="termAndConditionsPage_LinksValidation" duration-ms="34556" started-at="2020-10-03T23:09:32 EDT" data-provider="dd-dataprovider" finished-at="2020-10-03T23:10:06 EDT">
+        <test-method status="SKIP" signature="termAndConditionsPage_LinksValidation(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="termAndConditionsPage_LinksValidation" duration-ms="0" started-at="2020-10-05T17:08:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:08:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -384,14 +1064,48 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Driver Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Driver Not Found
+at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
+at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- termAndConditionsPage_LinksValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@71a794e5]" name="quit" is-config="true" duration-ms="6148" started-at="2020-10-03T23:10:06 EDT" finished-at="2020-10-03T23:10:13 EDT">
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="-1601932110003" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="afterClass" is-config="true" duration-ms="-1601932110004" started-at="2020-10-05T17:08:30 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.dollardays.testcases.EmailPreferencesValidationsTestCase -->
     </test> <!-- Dollar Days Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Parallel Class Runs -->
 </testng-results>
