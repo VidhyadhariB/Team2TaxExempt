@@ -1,51 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="9" failed="6" ignored="0" total="20" passed="5">
+<testng-results skipped="4" failed="1" ignored="0" total="20" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Class Runs" duration-ms="251403" started-at="2020-10-15T00:04:33 EDT" finished-at="2020-10-15T00:08:45 EDT">
+  <suite name="Parallel Class Runs" duration-ms="311121" started-at="2020-10-15T00:21:09 EDT" finished-at="2020-10-15T00:26:20 EDT">
     <groups>
     </groups>
-    <test name="Dollar Days Test" duration-ms="251403" started-at="2020-10-15T00:04:33 EDT" finished-at="2020-10-15T00:08:45 EDT">
+    <test name="Dollar Days Test" duration-ms="311121" started-at="2020-10-15T00:21:09 EDT" finished-at="2020-10-15T00:26:20 EDT">
       <class name="com.dollardays.testcases.Team2TaxExemptTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-10-15T00:04:33 EDT" finished-at="2020-10-15T00:04:33 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-10-15T00:21:09 EDT" finished-at="2020-10-15T00:21:09 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="16308" started-at="2020-10-15T00:04:35 EDT" finished-at="2020-10-15T00:04:52 EDT">
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="27058" started-at="2020-10-15T00:21:11 EDT" finished-at="2020-10-15T00:21:38 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="44358" started-at="2020-10-15T00:21:38 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:22:22 EDT">
           <params>
             <param index="0">
               <value>
@@ -53,48 +23,18 @@ at java.lang.Thread.run(Thread.java:748)
               </value>
             </param>
           </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692283" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="5069" started-at="2020-10-15T00:22:22 EDT" finished-at="2020-10-15T00:22:27 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692284" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="16994" started-at="2020-10-15T00:22:27 EDT" finished-at="2020-10-15T00:22:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="22686" started-at="2020-10-15T00:22:44 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:23:07 EDT">
           <params>
             <param index="0">
               <value>
@@ -102,48 +42,18 @@ at java.lang.Thread.run(Thread.java:748)
               </value>
             </param>
           </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692295" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="5183" started-at="2020-10-15T00:23:07 EDT" finished-at="2020-10-15T00:23:12 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692300" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="14620" started-at="2020-10-15T00:23:12 EDT" finished-at="2020-10-15T00:23:27 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="21072" started-at="2020-10-15T00:23:27 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:23:48 EDT">
           <params>
             <param index="0">
               <value>
@@ -151,48 +61,18 @@ at java.lang.Thread.run(Thread.java:748)
               </value>
             </param>
           </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692316" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="5123" started-at="2020-10-15T00:23:48 EDT" finished-at="2020-10-15T00:23:53 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692320" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="14517" started-at="2020-10-15T00:23:53 EDT" finished-at="2020-10-15T00:24:07 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
+        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="22543" started-at="2020-10-15T00:24:07 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:24:30 EDT">
           <params>
             <param index="0">
               <value>
@@ -200,48 +80,18 @@ at java.lang.Thread.run(Thread.java:748)
               </value>
             </param>
           </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692335" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="5156" started-at="2020-10-15T00:24:30 EDT" finished-at="2020-10-15T00:24:35 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692339" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="36442" started-at="2020-10-15T00:24:35 EDT" finished-at="2020-10-15T00:25:12 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
+        <test-method status="FAIL" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="13024" started-at="2020-10-15T00:25:12 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:25 EDT">
           <params>
             <param index="0">
               <value>
@@ -249,580 +99,30 @@ at java.lang.Thread.run(Thread.java:748)
               </value>
             </param>
           </params>
-          <exception class="java.lang.Exception">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692348" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692350" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TaxID=, TestCase=State and TaxId empty, ExpiryDate=09/19/2022, filePath=SampleJpg.jpg, TCID=TC6, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692356" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692359" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TaxID=2.0, TestCase=Expiry date and State are empty, ExpiryDate=, filePath=SampleJpg.jpg, TCID=TC7, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692368" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692372" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TaxID=3.0, TestCase=Tax exempt form all required fields are filled, ExpiryDate=08/19/2022, filePath=SampleJpg.jpg, TCID=TC8, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Positive, State=Iowa, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692375" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602734692379" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:04:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:04:52 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TaxID=, TestCase=validate wrong file type, ExpiryDate=, filePath=TaxCertificate for DollarDays.txt, TCID=TC9, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=wrong, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Driver Not Found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Driver Not Found
-at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:95)
-at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:117)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602734692391" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="afterClass" is-config="true" duration-ms="-1602734692397" started-at="2020-10-15T00:04:52 EDT" finished-at="1969-12-31T19:00:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.dollardays.testcases.Team2TaxExemptTestCase -->
-      <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-10-15T00:04:33 EDT" finished-at="2020-10-15T00:04:33 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="21345" started-at="2020-10-15T00:04:35 EDT" finished-at="2020-10-15T00:04:56 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="VerifyDCEditClick(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDCEditClick" duration-ms="6517" started-at="2020-10-15T00:04:56 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:05:03 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyDCEditClick, Zip=98002, CCExpirymonth=05-May, TCID=TC1, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.dollardays.pages.LoginPage.login(LoginPage.java:86)
-at com.dollardays.testcases.DefaultPaymentMethodScript.VerifyDCEditClick(DefaultPaymentMethodScript.java:29)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyDCEditClick -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="5046" started-at="2020-10-15T00:05:03 EDT" finished-at="2020-10-15T00:05:08 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="22633" started-at="2020-10-15T00:05:08 EDT" finished-at="2020-10-15T00:05:31 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="VerifyCardVisible(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyCardVisible" duration-ms="9355" started-at="2020-10-15T00:05:31 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:05:40 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyCardVisible, Zip=98002, CCExpirymonth=05-May, TCID=TC2, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not interactable
+              <![CDATA[chrome not reachable
   (Session info: chrome=86.0.4240.75)
   (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 17 milliseconds
+Command duration or timeout: 12.02 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51707}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir11072_781351643}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: de5fcdae865b1bdf4732400395f37c16]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+*** Element info: {Using=xpath, value=//a[normalize-space(.)='Sign in']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=86.0.4240.75)
   (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 17 milliseconds
+Command duration or timeout: 12.02 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51707}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir11072_781351643}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: de5fcdae865b1bdf4732400395f37c16
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at com.dollardays.pages.DefaultPaymentMethodPage.click_User_Dropdown_Toggle_Accounts(DefaultPaymentMethodPage.java:115)
-at com.dollardays.testcases.DefaultPaymentMethodScript.VerifyCardVisible(DefaultPaymentMethodScript.java:70)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCardVisible -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="5141" started-at="2020-10-15T00:05:40 EDT" finished-at="2020-10-15T00:05:45 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="17576" started-at="2020-10-15T00:05:45 EDT" finished-at="2020-10-15T00:06:03 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="VerifyClickAddNewCard(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyClickAddNewCard" duration-ms="5188" started-at="2020-10-15T00:06:03 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:06:08 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyClickAddNewCard, Zip=98002, CCExpirymonth=05-May, TCID=TC3, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=false, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.dollardays.pages.LoginPage.login(LoginPage.java:86)
-at com.dollardays.testcases.DefaultPaymentMethodScript.VerifyClickAddNewCard(DefaultPaymentMethodScript.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyClickAddNewCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="5030" started-at="2020-10-15T00:06:08 EDT" finished-at="2020-10-15T00:06:13 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="16335" started-at="2020-10-15T00:06:13 EDT" finished-at="2020-10-15T00:06:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifySetDefaultCard(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifySetDefaultCard" duration-ms="26744" started-at="2020-10-15T00:06:30 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:06:56 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifySetDefaultCard, Zip=98002, CCExpirymonth=05-May, TCID=TC4, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySetDefaultCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="4828" started-at="2020-10-15T00:06:56 EDT" finished-at="2020-10-15T00:07:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="13098" started-at="2020-10-15T00:07:01 EDT" finished-at="2020-10-15T00:07:14 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyEditOnCard(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyEditOnCard" duration-ms="21352" started-at="2020-10-15T00:07:14 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:07:36 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEditOnCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="5111" started-at="2020-10-15T00:07:36 EDT" finished-at="2020-10-15T00:07:41 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="16057" started-at="2020-10-15T00:07:41 EDT" finished-at="2020-10-15T00:07:57 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyDeleteCard(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDeleteCard" duration-ms="28554" started-at="2020-10-15T00:07:57 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:08:26 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyDeleteCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="4870" started-at="2020-10-15T00:08:26 EDT" finished-at="2020-10-15T00:08:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-10-15T00:08:30 EDT" finished-at="2020-10-15T00:08:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
-      <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-10-15T00:04:33 EDT" finished-at="2020-10-15T00:04:33 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="20637" started-at="2020-10-15T00:04:35 EDT" finished-at="2020-10-15T00:04:56 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="emailPreferences_UserEmailAddressValidation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_UserEmailAddressValidation" duration-ms="8067" started-at="2020-10-15T00:04:56 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:05:04 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=emailPreferences_UserEmailAddressValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=srikanthtesting100@gmail.com, UserName=srikanthtesting100@gmail.com, TCID=TC1, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.dollardays.pages.LoginPage.login(LoginPage.java:86)
-at com.dollardays.testcases.EmailPreferencesValidationsTestCase.emailPreferences_UserEmailAddressValidation(EmailPreferencesValidationsTestCase.java:42)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailPreferences_UserEmailAddressValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5125" started-at="2020-10-15T00:05:04 EDT" finished-at="2020-10-15T00:05:09 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="16423" started-at="2020-10-15T00:05:09 EDT" finished-at="2020-10-15T00:05:26 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="emailPreferences_Checkbox_Validation_AtPageLaunch(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_Checkbox_Validation_AtPageLaunch" duration-ms="12855" started-at="2020-10-15T00:05:26 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:05:39 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=emailPreferences_Checkbox_Validation_AtPageLaunch, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=true, UserName=srikanthtesting100@gmail.com, TCID=TC2, =}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ctl00_cphContent_chkOptinBox1']"}
-  (Session info: chrome=86.0.4240.75)
-  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 13 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir22408_89247719}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: a0ce0265922227e0065273cd0eb84188
-*** Element info: {Using=xpath, value=//input[@id='ctl00_cphContent_chkOptinBox1']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ctl00_cphContent_chkOptinBox1']"}
-  (Session info: chrome=86.0.4240.75)
-  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 13 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir22408_89247719}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: a0ce0265922227e0065273cd0eb84188
-*** Element info: {Using=xpath, value=//input[@id='ctl00_cphContent_chkOptinBox1']}
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+*** Element info: {Using=xpath, value=//a[normalize-space(.)='Sign in']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -836,8 +136,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.isSelected(Unknown Source)
-at com.dollardays.testcases.EmailPreferencesValidationsTestCase.emailPreferences_Checkbox_Validation_AtPageLaunch(EmailPreferencesValidationsTestCase.java:135)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.dollardays.pages.LoginPage.login(LoginPage.java:76)
+at com.dollardays.testcases.Team2TaxExemptTestCase.ValidateTaxExemptRequiredFields(Team2TaxExemptTestCase.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -855,19 +156,542 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:62
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emailPreferences_Checkbox_Validation_AtPageLaunch -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5032" started-at="2020-10-15T00:05:39 EDT" finished-at="2020-10-15T00:05:44 EDT">
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="FAIL" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="249" started-at="2020-10-15T00:25:25 EDT" finished-at="2020-10-15T00:25:25 EDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+at com.dollardays.testcases.BaseTest.quit(BaseTest.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="18568" started-at="2020-10-15T00:05:44 EDT" finished-at="2020-10-15T00:06:02 EDT">
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602735925410" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="emailPreferences_checkbox_validation_AtClick(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_checkbox_validation_AtClick" duration-ms="5930" started-at="2020-10-15T00:06:02 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:06:08 EDT">
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:25:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=State and TaxId empty, ExpiryDate=09/19/2022, filePath=SampleJpg.jpg, TCID=TC6, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+at com.dollardays.testcases.BaseTest.quit(BaseTest.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602735925415" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602735925416" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:25:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=2.0, TestCase=Expiry date and State are empty, ExpiryDate=, filePath=SampleJpg.jpg, TCID=TC7, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+at com.dollardays.testcases.BaseTest.quit(BaseTest.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602735925424" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602735925426" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:25:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=3.0, TestCase=Tax exempt form all required fields are filled, ExpiryDate=08/19/2022, filePath=SampleJpg.jpg, TCID=TC8, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Positive, State=Iowa, =}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+at com.dollardays.testcases.BaseTest.quit(BaseTest.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602735925431" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="0" started-at="2020-10-15T00:25:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TaxID=, TestCase=validate wrong file type, ExpiryDate=, filePath=TaxCertificate for DollarDays.txt, TCID=TC9, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=wrong, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13752_1015490451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 50ab9e5f8d4cec6d982897d09e715ff8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+at com.dollardays.testcases.BaseTest.quit(BaseTest.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptRequiredFields -->
+        <test-method status="SKIP" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="-1602735925432" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="-1602735925436" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="afterClass" is-config="true" duration-ms="-1602735925438" started-at="2020-10-15T00:25:25 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.Team2TaxExemptTestCase -->
+      <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-10-15T00:21:09 EDT" finished-at="2020-10-15T00:21:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="26300" started-at="2020-10-15T00:21:11 EDT" finished-at="2020-10-15T00:21:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyDCEditClick(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDCEditClick" duration-ms="20547" started-at="2020-10-15T00:21:37 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:21:57 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyDCEditClick, Zip=98002, CCExpirymonth=05-May, TCID=TC1, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDCEditClick -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="4994" started-at="2020-10-15T00:21:57 EDT" finished-at="2020-10-15T00:22:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="13822" started-at="2020-10-15T00:22:03 EDT" finished-at="2020-10-15T00:22:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyCardVisible(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyCardVisible" duration-ms="21056" started-at="2020-10-15T00:22:17 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:22:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyCardVisible, Zip=98002, CCExpirymonth=05-May, TCID=TC2, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCardVisible -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="5386" started-at="2020-10-15T00:22:38 EDT" finished-at="2020-10-15T00:22:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="14551" started-at="2020-10-15T00:22:43 EDT" finished-at="2020-10-15T00:22:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyClickAddNewCard(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyClickAddNewCard" duration-ms="31264" started-at="2020-10-15T00:22:58 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:23:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyClickAddNewCard, Zip=98002, CCExpirymonth=05-May, TCID=TC3, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=false, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickAddNewCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="5354" started-at="2020-10-15T00:23:29 EDT" finished-at="2020-10-15T00:23:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="17516" started-at="2020-10-15T00:23:35 EDT" finished-at="2020-10-15T00:23:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifySetDefaultCard(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifySetDefaultCard" duration-ms="26478" started-at="2020-10-15T00:23:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:24:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifySetDefaultCard, Zip=98002, CCExpirymonth=05-May, TCID=TC4, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySetDefaultCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="4955" started-at="2020-10-15T00:24:19 EDT" finished-at="2020-10-15T00:24:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="15613" started-at="2020-10-15T00:24:24 EDT" finished-at="2020-10-15T00:24:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyEditOnCard(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyEditOnCard" duration-ms="22517" started-at="2020-10-15T00:24:40 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditOnCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="1967" started-at="2020-10-15T00:25:02 EDT" finished-at="2020-10-15T00:25:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="19548" started-at="2020-10-15T00:25:04 EDT" finished-at="2020-10-15T00:25:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="VerifyDeleteCard(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDeleteCard" duration-ms="31972" started-at="2020-10-15T00:25:24 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteCard -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="1037" started-at="2020-10-15T00:25:56 EDT" finished-at="2020-10-15T00:25:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-10-15T00:25:57 EDT" finished-at="2020-10-15T00:25:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
+      <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-10-15T00:21:09 EDT" finished-at="2020-10-15T00:21:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="27632" started-at="2020-10-15T00:21:11 EDT" finished-at="2020-10-15T00:21:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_UserEmailAddressValidation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_UserEmailAddressValidation" duration-ms="27701" started-at="2020-10-15T00:21:38 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:22:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=emailPreferences_UserEmailAddressValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=srikanthtesting100@gmail.com, UserName=srikanthtesting100@gmail.com, TCID=TC1, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPreferences_UserEmailAddressValidation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5060" started-at="2020-10-15T00:22:06 EDT" finished-at="2020-10-15T00:22:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="13674" started-at="2020-10-15T00:22:11 EDT" finished-at="2020-10-15T00:22:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_Checkbox_Validation_AtPageLaunch(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_Checkbox_Validation_AtPageLaunch" duration-ms="19542" started-at="2020-10-15T00:22:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:22:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=emailPreferences_Checkbox_Validation_AtPageLaunch, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=true, UserName=srikanthtesting100@gmail.com, TCID=TC2, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPreferences_Checkbox_Validation_AtPageLaunch -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5162" started-at="2020-10-15T00:22:45 EDT" finished-at="2020-10-15T00:22:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="15654" started-at="2020-10-15T00:22:50 EDT" finished-at="2020-10-15T00:23:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_checkbox_validation_AtClick(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_checkbox_validation_AtClick" duration-ms="64142" started-at="2020-10-15T00:23:06 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:24:10 EDT">
           <params>
             <param index="0">
               <value>
@@ -875,49 +699,18 @@ at java.lang.Thread.run(Thread.java:748)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.dollardays.pages.LoginPage.login(LoginPage.java:86)
-at com.dollardays.testcases.EmailPreferencesValidationsTestCase.emailPreferences_checkbox_validation_AtClick(EmailPreferencesValidationsTestCase.java:179)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailPreferences_checkbox_validation_AtClick -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5056" started-at="2020-10-15T00:06:08 EDT" finished-at="2020-10-15T00:06:13 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5334" started-at="2020-10-15T00:24:10 EDT" finished-at="2020-10-15T00:24:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="18499" started-at="2020-10-15T00:06:14 EDT" finished-at="2020-10-15T00:06:32 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="16048" started-at="2020-10-15T00:24:15 EDT" finished-at="2020-10-15T00:24:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="EmailPreferences_LinksValidation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="EmailPreferences_LinksValidation" duration-ms="51762" started-at="2020-10-15T00:06:32 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:07:24 EDT">
+        <test-method status="PASS" signature="EmailPreferences_LinksValidation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="EmailPreferences_LinksValidation" duration-ms="33229" started-at="2020-10-15T00:24:31 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:25:05 EDT">
           <params>
             <param index="0">
               <value>
@@ -928,15 +721,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailPreferences_LinksValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="1085" started-at="2020-10-15T00:07:24 EDT" finished-at="2020-10-15T00:07:25 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="4939" started-at="2020-10-15T00:25:05 EDT" finished-at="2020-10-15T00:25:10 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="19076" started-at="2020-10-15T00:07:25 EDT" finished-at="2020-10-15T00:07:44 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="14679" started-at="2020-10-15T00:25:10 EDT" finished-at="2020-10-15T00:25:24 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="termAndConditionsPage_LinksValidation(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="termAndConditionsPage_LinksValidation" duration-ms="55693" started-at="2020-10-15T00:07:44 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:08:40 EDT">
+        <test-method status="PASS" signature="termAndConditionsPage_LinksValidation(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="termAndConditionsPage_LinksValidation" duration-ms="50718" started-at="2020-10-15T00:25:24 EDT" data-provider="dd-dataprovider" finished-at="2020-10-15T00:26:15 EDT">
           <params>
             <param index="0">
               <value>
@@ -947,11 +740,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- termAndConditionsPage_LinksValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="4836" started-at="2020-10-15T00:08:40 EDT" finished-at="2020-10-15T00:08:45 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="5070" started-at="2020-10-15T00:26:15 EDT" finished-at="2020-10-15T00:26:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-15T00:08:45 EDT" finished-at="2020-10-15T00:08:45 EDT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-15T00:26:20 EDT" finished-at="2020-10-15T00:26:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
