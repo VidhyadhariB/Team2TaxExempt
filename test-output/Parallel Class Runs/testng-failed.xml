@@ -8,28 +8,23 @@
     <classes>
       <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
         <methods>
-          <include name="VerifyClickAddNewCard"/>
-          <include name="VerifyEditOnCard"/>
+          <include name="VerifyClickAddNewCard" invocation-numbers="0"/>
           <include name="afterClass"/>
-          <include name="VerifyCardVisible"/>
-          <include name="VerifySetDefaultCard"/>
+          <include name="VerifyCardVisible" invocation-numbers="0"/>
           <include name="beforeClass"/>
-          <include name="VerifyDCEditClick"/>
-          <include name="VerifyDeleteCard"/>
+          <include name="VerifyDCEditClick" invocation-numbers="0"/>
           <include name="quit"/>
           <include name="setUpBrowser"/>
         </methods>
       </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
       <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
         <methods>
-          <include name="EmailPreferences_LinksValidation"/>
           <include name="afterClass"/>
-          <include name="emailPreferences_Checkbox_Validation_AtPageLaunch"/>
-          <include name="emailPreferences_checkbox_validation_AtClick"/>
+          <include name="emailPreferences_Checkbox_Validation_AtPageLaunch" invocation-numbers="0"/>
+          <include name="emailPreferences_checkbox_validation_AtClick" invocation-numbers="0"/>
           <include name="beforeClass"/>
-          <include name="termAndConditionsPage_LinksValidation"/>
           <include name="quit"/>
-          <include name="emailPreferences_UserEmailAddressValidation"/>
+          <include name="emailPreferences_UserEmailAddressValidation" invocation-numbers="0"/>
           <include name="setUpBrowser"/>
         </methods>
       </class> <!-- com.dollardays.testcases.EmailPreferencesValidationsTestCase -->
