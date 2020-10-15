@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="520.859" tests="30" errors="0" skipped="13" failures="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Vidya_Git_Backup_DDProject\Team2TaxExempt"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Vidya_Git_Backup_DDProject\Team2TaxExempt"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rajesh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\DollardaysAddtoCartTeam6Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2048507778233534820.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\apache-maven-3.6.3\bin;&quot;;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\SELENIUM\NodeJS\;C:\Program Files (x86)\QuickTime\QTSystem\;%M2%;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Program Files\Jenkins;?C:\Program Files\Chromedriver\chromedriver.exe;C:\Users\Rajesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Rajesh\AppData\Roaming\npm;C:\Program Files\Jenkins;;C:\Eclipse\eclipse-jee-2018-09-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Rajesh"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Rajesh"/>
+    <property name="java.class.path" value="C:\Eclipse\eclipse-jee-2018-09-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Vidya_Git_Backup_DDProject\Team2TaxExempt\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="22.98"/>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="19.141"/>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="21.65"/>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="19.561"/>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="1.025">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2607041f064cfb68b16555c8cbbccf57&#10;*** Element info: {Using=xpath, value=//a[normalize-space(.)=&apos;Sign in&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 2607041f064cfb68b16555c8cbbccf57
+*** Element info: {Using=xpath, value=//a[normalize-space(.)='Sign in']}
+	at com.dollardays.testcases.Team2TaxExemptTestCase.ValidateTaxExemptRequiredFields(Team2TaxExemptTestCase.java:33)
+</failure>
+    <system-out><![CDATA[*** Running test method ValidateTaxExemptRequiredFields...
+Except expiry date all required fields empty
+*** Test execution ValidateTaxExemptRequiredFields failed...
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped message="chrome not reachable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.01 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2607041f064cfb68b16555c8cbbccf57"/>
+    <system-out><![CDATA[*** Test ValidateTaxExemptRequiredFields skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped message="chrome not reachable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.01 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2607041f064cfb68b16555c8cbbccf57"/>
+    <system-out><![CDATA[*** Test ValidateTaxExemptRequiredFields skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped message="chrome not reachable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.01 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2607041f064cfb68b16555c8cbbccf57"/>
+    <system-out><![CDATA[*** Test ValidateTaxExemptRequiredFields skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateTaxExemptRequiredFields" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped message="chrome not reachable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.01 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2607041f064cfb68b16555c8cbbccf57"/>
+    <system-out><![CDATA[*** Test ValidateTaxExemptRequiredFields skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="quit" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="5.039">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.01 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 2607041f064cfb68b16555c8cbbccf57" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53857}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15996_1708168268}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 2607041f064cfb68b16555c8cbbccf57
+</failure>
+  </testcase>
+  <testcase name="quit" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quit" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quit" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="quit" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUpBrowser" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUpBrowser" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUpBrowser" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUpBrowser" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="com.dollardays.testcases.Team2TaxExemptTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyDCEditClick" classname="com.dollardays.testcases.DefaultPaymentMethodScript" time="3.635">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;inputLoginUsername&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 688 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53913}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir4044_844957002}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 725d1a2edd7b3e0e18a65860f95ae152&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;inputLoginUsername&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='inputLoginUsername']"}
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 688 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53913}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir4044_844957002}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 725d1a2edd7b3e0e18a65860f95ae152
+*** Element info: {Using=xpath, value=//*[@id='inputLoginUsername']}
+	at com.dollardays.testcases.DefaultPaymentMethodScript.VerifyDCEditClick(DefaultPaymentMethodScript.java:29)
+</failure>
+    <system-out><![CDATA[rowcount1000
+
+ colcount26
+TC1 emailPreferences_UserEmailAddressValidation Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= srikanthtesting100@gmail.com                     rowcount1000
+
+ colcount26
+TC1 VerifyDCEditClick Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= True Mr.John 1234123412341234 05-May 2021 999 123 Ave SE Newyork Washington 98002            *** Running test method VerifyDCEditClick...
+VerifyDCEditClick
+*** Test execution VerifyDCEditClick failed...
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="emailPreferences_UserEmailAddressValidation" classname="com.dollardays.testcases.EmailPreferencesValidationsTestCase" time="1.142">
+    <failure message="element not interactable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 35 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53914}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir12856_149651034}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 4a047ccf58da81689732b5b4386f2e98" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not interactable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:53914}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir12856_149651034}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4a047ccf58da81689732b5b4386f2e98
+	at com.dollardays.testcases.EmailPreferencesValidationsTestCase.emailPreferences_UserEmailAddressValidation(EmailPreferencesValidationsTestCase.java:42)
+</failure>
+    <system-out><![CDATA[*** Running test method emailPreferences_UserEmailAddressValidation...
+emailPreferences_UserEmailAddressValidation
+*** Test execution emailPreferences_UserEmailAddressValidation failed...
+]]></system-out>
+  </testcase>
+  <testcase name="emailPreferences_Checkbox_Validation_AtPageLaunch" classname="com.dollardays.testcases.EmailPreferencesValidationsTestCase" time="1.093">
+    <failure message="element not interactable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 18 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54132}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir24616_363985344}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 9281b8175ed6be69b320de0c4d41a455" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not interactable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54132}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir24616_363985344}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9281b8175ed6be69b320de0c4d41a455
+	at com.dollardays.testcases.EmailPreferencesValidationsTestCase.emailPreferences_Checkbox_Validation_AtPageLaunch(EmailPreferencesValidationsTestCase.java:119)
+</failure>
+    <system-out><![CDATA[rowcount1000
+
+ colcount26
+TC2 emailPreferences_Checkbox_Validation_AtPageLaunch Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= true                     rowcount1000
+
+ colcount26
+TC2 VerifyCardVisible Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= true Mr.John 1234123412341234 05-May 2021 999 123 Ave SE Newyork Washington 98002            *** Running test method VerifyCardVisible...
+VerifyCardVisible
+*** Running test method emailPreferences_Checkbox_Validation_AtPageLaunch...
+emailPreferences_Checkbox_Validation_AtPageLaunch
+*** Test execution emailPreferences_Checkbox_Validation_AtPageLaunch failed...
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyCardVisible" classname="com.dollardays.testcases.DefaultPaymentMethodScript" time="3.278">
+    <failure message=" Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses &amp; Schools | Wholesale Products] but found [Login or Register - DollarDays]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError:  Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]
+	at com.dollardays.testcases.DefaultPaymentMethodScript.VerifyCardVisible(DefaultPaymentMethodScript.java:62)
+]]></failure>
+    <system-out><![CDATA[*** Test execution VerifyCardVisible failed...
+]]></system-out>
+  </testcase>
+  <testcase name="emailPreferences_checkbox_validation_AtClick" classname="com.dollardays.testcases.EmailPreferencesValidationsTestCase" time="0.581">
+    <failure message="element not interactable&#10;  (Session info: chrome=86.0.4240.75)&#10;  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 17 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;MININT-UM25UFB&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54317}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir2012_1692504638}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: b188c2fa1dccc3f720d6a48ceded796e" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not interactable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54317}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir2012_1692504638}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: b188c2fa1dccc3f720d6a48ceded796e
+	at com.dollardays.testcases.EmailPreferencesValidationsTestCase.emailPreferences_checkbox_validation_AtClick(EmailPreferencesValidationsTestCase.java:179)
+</failure>
+    <system-out><![CDATA[rowcount1000
+
+ colcount26
+TC3 VerifyClickAddNewCard Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= false Mr.John 1234123412341234 05-May 2021 999 123 Ave SE Newyork Washington 98002            rowcount1000
+
+ colcount26
+TC3 emailPreferences_checkbox_validation_AtClick Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= false                     *** Running test method emailPreferences_checkbox_validation_AtClick...
+emailPreferences_checkbox_validation_AtClick
+*** Running test method VerifyClickAddNewCard...
+VerifyClickAddNewCard
+*** Test execution emailPreferences_checkbox_validation_AtClick failed...
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyClickAddNewCard" classname="com.dollardays.testcases.DefaultPaymentMethodScript" time="20.671"/>
+  <testcase name="EmailPreferences_LinksValidation" classname="com.dollardays.testcases.EmailPreferencesValidationsTestCase" time="20.322"/>
+  <testcase name="VerifySetDefaultCard" classname="com.dollardays.testcases.DefaultPaymentMethodScript" time="21.358"/>
+  <testcase name="VerifyEditOnCard" classname="com.dollardays.testcases.DefaultPaymentMethodScript" time="33.918"/>
+  <testcase name="termAndConditionsPage_LinksValidation" classname="com.dollardays.testcases.EmailPreferencesValidationsTestCase" time="63.112"/>
+  <testcase name="VerifyDeleteCard" classname="com.dollardays.testcases.DefaultPaymentMethodScript" time="26.252"/>
+</testsuite>

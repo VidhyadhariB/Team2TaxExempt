@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Parallel Class Runs]" parallel="classes">
+  <listeners>
+    <listener class-name="com.dollardays.listners.TestListener"/>
+  </listeners>
+  <test thread-count="4" verbose="0" name="Dollar Days Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
+        <methods>
+          <include name="afterClass"/>
+          <include name="VerifyCardVisible" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="VerifyDCEditClick" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
+      <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="emailPreferences_Checkbox_Validation_AtPageLaunch" invocation-numbers="0"/>
+          <include name="emailPreferences_checkbox_validation_AtClick" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="quit"/>
+          <include name="emailPreferences_UserEmailAddressValidation" invocation-numbers="0"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.EmailPreferencesValidationsTestCase -->
+      <class name="com.dollardays.testcases.Team2TaxExemptTestCase">
+        <methods>
+          <include name="ValidateTaxExemptRequiredFields" invocation-numbers="4"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.Team2TaxExemptTestCase -->
+    </classes>
+  </test> <!-- Dollar Days Test(failed) -->
+</suite> <!-- Failed suite [Parallel Class Runs] -->
