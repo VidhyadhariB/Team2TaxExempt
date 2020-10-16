@@ -8,7 +8,7 @@
     <classes>
       <class name="com.dollardays.testcases.Team2TaxExemptTestCase">
         <methods>
-          <include name="ValidateTaxExemptRequiredFields" invocation-numbers="4"/>
+          <include name="ValidateTaxExemptRequiredFields" invocation-numbers="2"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
           <include name="quit"/>
